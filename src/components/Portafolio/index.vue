@@ -81,7 +81,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <!--<img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">--> 
                 </figure>
 
                 <h3 class="project-title">Finance</h3>
@@ -99,8 +99,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
+                  <!--<img src="./assets/images/project-2.png" alt="orizon" loading="lazy">-->             </figure>
 
                 <h3 class="project-title">Orizon</h3>
 
@@ -117,8 +116,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
+                  <!--<img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">-->             </figure>
 
                 <h3 class="project-title">Fundo</h3>
 
@@ -135,8 +133,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
+                  <!--<img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">-->             </figure>
 
                 <h3 class="project-title">Brawlhalla</h3>
 
@@ -153,8 +150,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
+                  <!--<img src="./assets/images/project-5.png" alt="dsm." loading="lazy">-->             </figure>
 
                 <h3 class="project-title">DSM.</h3>
 
@@ -171,8 +167,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
+                  <!--<img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">-->             </figure>
 
                 <h3 class="project-title">MetaSpark</h3>
 
@@ -189,8 +184,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
+                  <!--<img src="./assets/images/project-7.png" alt="summary" loading="lazy">-->             </figure>
 
                 <h3 class="project-title">Summary</h3>
 
@@ -207,8 +201,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
+                  <!--<img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">-->             </figure>
 
                 <h3 class="project-title">Task Manager</h3>
 
@@ -225,8 +218,7 @@ import './style.css'
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
+                  <!--<img src="./assets/images/project-9.png" alt="arrival" loading="lazy">-->             </figure>
 
                 <h3 class="project-title">Arrival</h3>
 
