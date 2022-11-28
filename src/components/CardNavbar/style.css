@@ -4,16 +4,19 @@
 
 .navbar {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
+   border-radius: 0 0 12px 12px ;
   box-shadow: var(--shadow-2);
   z-index: 5;
 }
+
+
+
 
 .navbar-list {
   display: flex;
@@ -48,6 +51,8 @@
    * #NAVBAR
    */
 
+   
+
   .navbar {
     border-radius: 20px 20px 0 0;
   }
@@ -71,49 +76,7 @@
   }
 }
 
-/**
- * responsive larger than 1024px screen
- */
 
-@media (min-width: 1024px) {
-  /**
-   * CUSTOM PROPERTY
-   */
-
-  :root {
-    /**
-    * shadow
-    */
-
-    --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.125);
-    --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.125);
-    --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.125);
-  }
-
-  /**
-   * REUSED STYLE
-   */
-
-  .sidebar,
-  article {
-    width: 950px;
-    box-shadow: var(--shadow-5);
-  }
-
-  /**
-   * MAIN 
-   */
-
-  main {
-    margin-bottom: 60px;
-  }
-
-  .main-content {
-    position: relative;
-    width: max-content;
-    margin: auto;
-  }
-}
 
 /**
  * responsive larger than 1024px screen

@@ -7,6 +7,10 @@
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
+
+  
+
+
 }
 
 .sidebar.active {
@@ -155,9 +159,12 @@
    * #SIDEBAR
    */
 
+  
+
   .sidebar {
     max-height: 180px;
     margin-bottom: 30px;
+  
   }
 
   .sidebar.active {
@@ -222,6 +229,7 @@
    * SIDEBAR
    */
 
+
   .contacts-list {
     /* grid-template-columns: 1fr 1fr; */
     /* gap: 30px 15px; */
@@ -245,6 +253,7 @@
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
+    
   }
 
   .sidebar-info {
@@ -297,3 +306,16 @@
     justify-content: center;
   }
 }
+
+/**
+ * responsive larger than 1250px screen
+ */
+
+ @media (max-width: 780px) {
+  .sidebar{
+    margin-top: 70px;
+  }
+}
+
+
+

@@ -63,7 +63,7 @@ import './style.css'
 
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="phone-portrait-outline"></ion-icon>
+            <ion-icon name="logo-whatsapp"></ion-icon>
           </div>
 
           <div class="contact-info">
