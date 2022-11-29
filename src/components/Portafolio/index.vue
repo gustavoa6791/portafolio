@@ -76,7 +76,7 @@ export default {
         {
           category: "web service",
           url: "http://209.151.151.65:3001/",
-          img: "/assets/images/blog.png",
+          img: "../../assets/images/blog.png",
           title: "Blog Dev",
           description:
             "Aplicacion de un blog, Desarrollada en Laravel con Blade como gestor de plantillas",
