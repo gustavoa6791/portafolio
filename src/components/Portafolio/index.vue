@@ -1,238 +1,119 @@
-<script>
-import './style.css'
-</script>
+
 
 <template>
 
+  <article class="portfolio active" data-page="portfolio">
+    <header>
+      <h2 class="h2 article-title">Portafolio</h2>
+    </header>
 
-      <!--
-        - #PORTFOLIO
-      -->
+    <section class="projects">
+      <ul class="filter-list">
+        <li class="filter-item">
+          <button class="active" data-filter-btn>Todos</button>
+        </li>
 
-      <article class="portfolio active" data-page="portfolio">
+        <li class="filter-item">
+          <button data-filter-btn>Diseño WEB</button>
+        </li>
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
+        <li class="filter-item">
+          <button data-filter-btn>Aplicaciones</button>
+        </li>
+      </ul>
 
-        <section class="projects">
+      <div class="filter-select-box">
+        <button class="filter-select" data-select>
+          <div class="select-value" data-selecct-value>Seleccione una categoria</div>
 
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
+          <div class="select-icon">
+            <ion-icon name="chevron-down"></ion-icon>
           </div>
+        </button>
 
-          <ul class="project-list">
+        <ul class="select-list">
+          <li class="select-item">
+            <button data-select-item>Todos</button>
+          </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+          <li class="select-item">
+            <button data-select-item>Diseño WEB</button>
+          </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+          <li class="select-item">
+            <button data-select-item>Aplicaciones</button>
+          </li>
+        </ul>
+      </div>
 
-                  <!--<img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">--> 
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <!--<img src="./assets/images/project-2.png" alt="orizon" loading="lazy">-->             </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <!--<img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">-->             </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <!--<img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">-->             </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <!--<img src="./assets/images/project-5.png" alt="dsm." loading="lazy">-->             </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <!--<img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">-->             </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <!--<img src="./assets/images/project-7.png" alt="summary" loading="lazy">-->             </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <!--<img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">-->             </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <!--<img src="./assets/images/project-9.png" alt="arrival" loading="lazy">-->             </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-    
-
+      <ul class="project-list">
+        <div v-for="proyect in proyects" :key="proyect.title">
+          <li class="project-item active" data-filter-item data-category="{{proyect.category}}" >
+            <a :href="proyect.url" target="_blank">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img :src="proyect.img" alt="brawlhalla" loading="lazy" />
+              </figure>
+              <h3 class="project-title">{{ proyect.title }}</h3>
+              <p class="project-category">{{ proyect.description }}</p>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </section>
+  </article>
 </template>
+
+<script>
+import "./style.css";
+
+export default {
+  data() {
+    return {
+      proyects: [
+        {
+          category: "web service",
+          url: "http://209.151.151.65:3001/",
+          img: "/src/assets/images/blog.png",
+          title: "Blog Dev",
+          description:
+            "Aplicacion de un blog, Desarrollada en Laravel con Blade como gestor de plantillas",
+        },
+        {
+          category: "web design",
+          url: "https://clubdelaprendizaje.vercel.app/",
+          img: "/src/assets/images/clubaprendizaje.png",
+          title: "Club de Aprendizaje",
+          description:
+            "Diseño web para startup para servicios de educacion, desarrollada con NuxtJs",
+        },
+        {
+          category: "web service",
+          url: "https://todos-react-six.vercel.app/",
+          img: "/src/assets/images/todosreact.png",
+          title: "TODO'S",
+          description:
+            "Mini aplicacion para guardar tareas a realizar, realizada con ReactJs",
+        },
+        {
+          category: "web service",
+          url: "https://inversion-univalle.vercel.app/",
+          img: "/src/assets/images/inversion.png",
+          title: "Prediccion de Inversion",
+          description:
+            "Mini Aplicacion que genera graficos y datos de la proyeccion de una inversion",
+        },
+        {
+          category: "web service",
+          url: "https://sudoku-univalle.vercel.app/",
+          img: "/src/assets/images/sudoku.png",
+          title: "Sudoku",
+          description: "Juego sudoku. desarrollado en ReactJs",
+        },
+      ],
+    };
+  },
+};
+</script>

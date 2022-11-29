@@ -299,7 +299,7 @@
 
   .separator:last-of-type {
     margin: 15px 0;
-    opacity: 0;
+    opacity: 1;
   }
 
   .social-list {

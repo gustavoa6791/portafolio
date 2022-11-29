@@ -16,16 +16,18 @@ import './style.css'
 
       <div class="info-content">
         <h1 class="name" title="gustavo arango">Gustavo Arango</h1>
-        <p class="title">Deasarrollador de Software <br> Full Stack</p>
+        <p class="title">Desarrollador de Software <br> Full Stack</p>
       </div>
 
-      <button class="info_more-btn" data-sidebar-btn>
+      <!-- <button class="info_more-btn" onclick="alert('hola')" data-sidebar-btn>
         <span>Mostrar Informacion</span>
         <ion-icon name="chevron-down"></ion-icon>
-      </button>
+      </button> -->
     </div>
 
-    <div class="sidebar-info_more">
+
+
+    <div class="sidebar-info_more" >
       <div class="separator"></div>
 
       <ul class="contacts-list">

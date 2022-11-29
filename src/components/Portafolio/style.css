@@ -74,6 +74,7 @@
 
 .project-item {
   display: none;
+
 }
 
 .project-item.active {
@@ -101,6 +102,7 @@
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
+  
 }
 
 .project-img::before {
@@ -135,7 +137,7 @@
   z-index: 1;
   transition: var(--transition-1);
 }
-
+  /* max-height: 100px; */
 .project-item > a:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
@@ -186,7 +188,7 @@
 @media (min-width: 450px) {
   .project-img,
   .blog-banner-box {
-    height: auto;
+   /*  height: auto; */
   }
 }
 
