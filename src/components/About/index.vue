@@ -150,35 +150,35 @@ export default {
         {
           title: "JavaScript",
           sizeimg: "50",
-          img: "/src/assets/images/js.png",
+          img: "/assets/images/js.png",
           percent: "80",
           width:"width:80%"
         },
         {
           title: "PHP",
           sizeimg: "80",
-          img: "/src/assets/images/php.svg",
+          img: "/assets/images/php.svg",
           percent: "80",
           width:"width:80%"
         },
         {
           title: "Vue Js",
           sizeimg: "80",
-          img: "/src/assets/images/vuejs.svg",
+          img: "/assets/images/vuejs.svg",
           percent: "90",
           width:"width:90%"
         },
         {
           title: "React Js",
           sizeimg: "80",
-          img: "/src/assets/images/reactjs.svg",
+          img: "/assets/images/reactjs.svg",
           percent: "70",
           width:"width:70%"
         },
         {
           title: "Laravel",
           sizeimg: "100",
-          img: "/src/assets/images/laravel.svg",
+          img: "/assets/images/laravel.svg",
           percent: "90",
           width:"width:90%"
         },
