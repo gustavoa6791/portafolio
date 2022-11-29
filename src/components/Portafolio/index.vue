@@ -76,7 +76,7 @@ export default {
         {
           category: "web service",
           url: "http://209.151.151.65:3001/",
-          img: "/src/assets/images/blog.png",
+          img: "./src/assets/images/blog.png",
           title: "Blog Dev",
           description:
             "Aplicacion de un blog, Desarrollada en Laravel con Blade como gestor de plantillas",
@@ -84,7 +84,7 @@ export default {
         {
           category: "web design",
           url: "https://clubdelaprendizaje.vercel.app/",
-          img: "/src/assets/images/clubaprendizaje.png",
+          img: "./src/assets/images/clubaprendizaje.png",
           title: "Club de Aprendizaje",
           description:
             "Diseño web para startup para servicios de educacion, desarrollada con NuxtJs",
@@ -92,7 +92,7 @@ export default {
         {
           category: "web service",
           url: "https://todos-react-six.vercel.app/",
-          img: "/src/assets/images/todosreact.png",
+          img: "./src/assets/images/todosreact.png",
           title: "TODO'S",
           description:
             "Mini aplicacion para guardar tareas a realizar, realizada con ReactJs",
@@ -100,7 +100,7 @@ export default {
         {
           category: "web service",
           url: "https://inversion-univalle.vercel.app/",
-          img: "/src/assets/images/inversion.png",
+          img: "./src/assets/images/inversion.png",
           title: "Prediccion de Inversion",
           description:
             "Mini Aplicacion que genera graficos y datos de la proyeccion de una inversion",
@@ -108,7 +108,7 @@ export default {
         {
           category: "web service",
           url: "https://sudoku-univalle.vercel.app/",
-          img: "/src/assets/images/sudoku.png",
+          img: "./src/assets/images/sudoku.png",
           title: "Sudoku",
           description: "Juego sudoku. desarrollado en ReactJs",
         },
