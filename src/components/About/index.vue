@@ -124,7 +124,7 @@
         <div v-for="skill in skills" :key="skill.title">
           <li class="skills-item">
             <div class="title-wrapper">
-              <h5 class="h5" style="min-width: 300px">{{ skill.title }}</h5>
+              <h5 class="h5" style="min-width: 100px">{{ skill.title }}</h5>
               <img :width="skill.sizeimg" :src="skill.img" /><img />
               <data :value="skill.percent">{{ skill.percent }}%</data>
             </div>
