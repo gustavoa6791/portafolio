@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#D97757" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Representación de Terminal de IA (Claude) -->
+  <rect x="2" y="3" width="20" height="18" rx="2" ry="2"/>
+  <polyline points="6 8 10 12 6 16"/>
+  <line x1="12" y1="16" x2="18" y2="16"/>
+  <!-- Destello de IA -->
+  <path d="M18 3l1 2 2 1-2 1-1 2-1-2-2-1 2-1z" fill="#D97757" stroke="none"/>
+  <path d="M15 7l.5 1 1 .5-1 .5-.5 1-.5-1-1-.5 1-.5.5-1z" fill="#D97757" stroke="none"/>
+</svg>

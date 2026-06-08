@@ -47,20 +47,18 @@
       </div>
 
       <ul class="project-list">
-        <div v-for="proyect in proyects" :key="proyect.title">
-          <li class="project-item active" data-filter-item data-category="{{proyect.category}}" >
-            <a :href="proyect.url" target="_blank">
-              <figure class="project-img">
-                <div class="project-item-icon-box">
-                  <ion-icon name="eye-outline"></ion-icon>
-                </div>
-                <img :src="proyect.img" alt="brawlhalla" loading="lazy" />
-              </figure>
-              <h3 class="project-title">{{ proyect.title }}</h3>
-              <p class="project-category">{{ proyect.description }}</p>
-            </a>
-          </li>
-        </div>
+        <li class="project-item active" data-filter-item :data-category="proyect.category" v-for="proyect in proyects" :key="proyect.title">
+          <a :href="proyect.url" target="_blank">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img :src="proyect.img" alt="brawlhalla" loading="lazy" />
+            </figure>
+            <h3 class="project-title">{{ proyect.title }}</h3>
+            <p class="project-category">{{ proyect.description }}</p>
+          </a>
+        </li>
       </ul>
     </section>
   </article>

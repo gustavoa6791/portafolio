@@ -8,20 +8,11 @@
 
     <section class="about-text">
       <p>
-        Soy DESARROLLADOR DE SOFTWARE FULLSTACK, con tres (3) años de
-        experiencia. Tengo conocimientos avanzados en lenguajes como JavaScript,
-        PHP y Python, trabajando con framework como ReactJs, VueJs, Laravel y
-        Ionic. Actualmente estoy en búsqueda de mejorar mi perfil profesional
-        con nuevos retos o posiciones en desarrollo de paginas o aplicativos web
-        o aplicativos móviles.
+        Desarrollador de Software Full-Stack con más de 6 años de experiencia en el diseño, construcción y optimización de aplicaciones web y móviles de alta complejidad. Sólidos conocimientos en el ecosistema de JavaScript, PHP y Python, con experiencia práctica implementando arquitecturas robustas mediante React.js, Vue.js y Laravel.
       </p>
 
       <p>
-        Me considero una persona responsable, creativa, con iniciativa y
-        puntualidad, asumo con agrado los retos y metas que su organización me
-        pudiera plantear. Ademas cuento con buen manejo de relaciones
-        interpersonales, servicio al cliente y facilidad para trabajar en
-        equipo.
+        Enfocado en la resolución de problemas técnicos complejos, el mantenimiento de sistemas y la adopción de herramientas de IA aplicada al desarrollo para acelerar ciclos de entrega. Comprometido con la excelencia técnica, el aprendizaje profundo y el trabajo colaborativo ágil.
       </p>
     </section>
     <br>
@@ -60,6 +51,21 @@
             <p class="service-item-text">
               Aplicativos basados en web, desarrollados a la medida 
               del modelo de negocio.
+            </p>
+          </div>
+        </li>
+
+        <li class="service-item">
+          <div class="service-icon-box">
+            <img src="/src/assets/images/icon-ai.svg" alt="IA integration icon" width="40" />
+          </div>
+
+          <div class="service-content-box">
+            <h4 class="h4 service-item-title">Integración de IA</h4>
+
+            <p class="service-item-text">
+              Implementación de modelos de lenguaje (LLMs) y APIs de inteligencia artificial 
+              para dotar a las aplicaciones de análisis profundo, generación de contenido y automatización.
             </p>
           </div>
         </li>
@@ -111,8 +117,8 @@
           <div class="title-wrapper">
             <h5 class="h5">Maquetacion WEB</h5>
             <div style="display: flex">
-              <img width="100" src="/src/assets/images/html.svg" /><img />
-              <img width="80" src="/src/assets/images/css.svg" /><img />
+              <img width="100" src="/src/assets/images/html.svg" />
+              <img width="80" src="/src/assets/images/css.svg" />
             </div>
             <data value="80">80%</data>
           </div>
@@ -121,18 +127,16 @@
           </div>
         </li>
 
-        <div v-for="skill in skills" :key="skill.title">
-          <li class="skills-item">
-            <div class="title-wrapper">
-              <h5 class="h5" style="min-width: 100px">{{ skill.title }}</h5>
-              <img :width="skill.sizeimg" :src="skill.img" /><img />
-              <data :value="skill.percent">{{ skill.percent }}%</data>
-            </div>
-            <div class="skill-progress-bg">
-              <div class="skill-progress-fill" :style="skill.width" ></div>
-            </div>
-          </li>
-        </div>
+        <li class="skills-item" v-for="skill in skills" :key="skill.title">
+          <div class="title-wrapper">
+            <h5 class="h5" style="min-width: 100px">{{ skill.title }}</h5>
+            <img :width="skill.sizeimg" :src="skill.img" />
+            <data :value="skill.percent">{{ skill.percent }}%</data>
+          </div>
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" :style="skill.width" ></div>
+          </div>
+        </li>
         <br><br>
       </ul>
     </section>
@@ -142,43 +146,80 @@
 
 <script>
 import "./style.css";
+import imgJs from "../../assets/images/js.png";
+import imgPhp from "../../assets/images/php.svg";
+import imgVue from "../../assets/images/vuejs.svg";
+import imgReact from "../../assets/images/reactjs.svg";
+import imgLaravel from "../../assets/images/laravel.svg";
+import imgPython from "../../assets/images/icon-python.svg";
+import imgClaude from "../../assets/images/icon-claude.svg";
+import imgCopilot from "../../assets/images/icon-copilot.svg";
+import imgRag from "../../assets/images/icon-rag.svg";
 
 export default {
   data() {
     return {
       skills: [
         {
+          title: "Claude Code",
+          sizeimg: "50",
+          img: imgClaude,
+          percent: "90",
+          width:"width:90%"
+        },
+        {
+          title: "GitHub Copilot",
+          sizeimg: "50",
+          img: imgCopilot,
+          percent: "85",
+          width:"width:85%"
+        },
+        {
+          title: "RAG & LLMs (NLP)",
+          sizeimg: "50",
+          img: imgRag,
+          percent: "80",
+          width:"width:80%"
+        },
+        {
           title: "JavaScript",
           sizeimg: "50",
-          img: "/assets/images/js.png",
+          img: imgJs,
+          percent: "80",
+          width:"width:80%"
+        },
+        {
+          title: "Python",
+          sizeimg: "50",
+          img: imgPython,
           percent: "80",
           width:"width:80%"
         },
         {
           title: "PHP",
           sizeimg: "80",
-          img: "/assets/images/php.svg",
+          img: imgPhp,
           percent: "80",
           width:"width:80%"
         },
         {
           title: "Vue Js",
           sizeimg: "80",
-          img: "/assets/images/vuejs.svg",
-          percent: "90",
-          width:"width:90%"
+          img: imgVue,
+          percent: "85",
+          width:"width:85%"
         },
         {
-          title: "React Js",
+          title: "React Js / Angular",
           sizeimg: "80",
-          img: "/assets/images/reactjs.svg",
-          percent: "70",
-          width:"width:70%"
+          img: imgReact,
+          percent: "85",
+          width:"width:85%"
         },
         {
-          title: "Laravel",
+          title: "Laravel / Symfony",
           sizeimg: "100",
-          img: "/assets/images/laravel.svg",
+          img: imgLaravel,
           percent: "90",
           width:"width:90%"
         },
