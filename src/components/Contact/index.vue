@@ -22,7 +22,7 @@ import "./style.css";
     <section class="contact-form">
       <h3 class="h3 form-title">Formulario de Contacto</h3>
 
-      <form action="#" class="form" data-form>
+      <form action="https://formspree.io/f/mjgdwlqg" method="POST" class="form" data-form>
         <div class="input-wrapper">
           <input
             type="text"
@@ -46,15 +46,15 @@ import "./style.css";
         <div class="input-wrapper">
           <input
             type="text"
-            name="fullname"
+            name="phone"
             class="form-input"
             placeholder="Numero de Contacto"
             data-form-input
           />
 
           <input
-            type="email"
-            name="email"
+            type="text"
+            name="company"
             class="form-input"
             placeholder="Empresa"
             data-form-input
